@@ -1,0 +1,39 @@
+a="""
+calculator:
+1.Add
+2.Subraction
+3.Multiple
+4.Divided
+5.Exit
+"""
+while True:
+    print(a)
+    a1=int(input())
+    if(a1==1):
+        print("Add:")
+        b1=int(input())
+        b2=int(input())
+        c=b1+b2
+        print(c)
+    elif(a1==2):
+        print("sub:")
+        b1=int(input())
+        b2=int(input())
+        c=b1-b2
+        print(c)
+    elif(a1==3):
+        print("mullti:")
+        b1=int(input())
+        b2=int(input())
+        c=b1*b2
+        print(c)
+    elif(a1==4):
+        print("div:")
+        b1=int(input())
+        b2=int(input())
+        c=b1/b2
+        print(c)
+    elif(a1==5):
+        print("Off")
+        break
+    

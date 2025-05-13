@@ -1,0 +1,500 @@
+h=("        GPA Calculation        ")
+Dept="""
+Deparaments:
+1.CSE
+2.ECE
+3.IT
+4.EEE
+5.MECH
+6.AIDS
+7.HSC
+"""
+while True:
+    print(h)
+    print(Dept)
+    d1=int(input("enter a Deparament id:"))
+    if(d1==1):
+        a="""
+        Computer science and engineering:
+        COURSE Title:
+        1.Computer Networks
+        2.Compiler Desigs
+        3.Cryptography and Cyber Security
+        4.Distributed Computing
+        5.Big Data Analytics
+        6.Cloud Computing
+        7.Cyber Security by Google
+        """
+        print(a)
+        a2=4
+        print(a2)
+        c1=int(input("Enter CN Grade point="))
+        print(c1)
+        w1=c1*a2
+        print(w1)
+        a3=4
+        print(a3)
+        c2=int(input("Enter CD Grade point="))
+        print(c2)
+        w2=c2*a3
+        print(w2)
+        a4=3
+        print(a4)
+        c3=int(input("Enter CCS Grade point="))
+        print(c3)
+        w3=c3*a4
+        print(w3)
+        a5=3
+        print(a5)
+        c4=int(input("Enter DC Grade point="))
+        print(c4)
+        w4=c4*a5
+        print(w4)
+        a6=3
+        print(a6)
+        c5=int(input("Enter BDA Grade point="))
+        print(c5)
+        w5=c5*a6
+        print(w5)
+        a7=3
+        print(a7)
+        c6=int(input("Enter CC Grade point="))
+        print(c6)
+        w6=c6*a7
+        print(w6)
+        a8=2
+        print(a8)
+        c7=int(input("Enter NM Grade point="))
+        print(c7)
+        w7=c7*a8
+        print(w7)
+        w=w1+w2+w3+w4+w5+w6+w7
+        h=w/22
+        print(w)
+        print("GPA=",h)
+        break
+    elif(d1==2):
+        d="""
+        ELECTRONICS AND COMMUNICATION ENGINEERING:
+        COURSE Title:
+        1.Wireless Communication
+        2.VLSI and Chip Design
+        3.Transmission lines and RF Systems
+        4.Professional Elective I
+        5.Professional Elective II
+        6.Professional Elective III
+        7.Cyber Security by Google
+        8.VLSI laboratory
+        """
+        print(d)
+        a2=4
+        print(a2)
+        c1=int(input("Enter WC Grade point="))
+        print(c1)
+        w1=c1*a2
+        print(w1)
+        a3=3
+        print(a3)
+        c2=int(input("Enter VLSI Grade point="))
+        print(c2)
+        w2=c2*a3
+        print(w2)
+        a4=3
+        print(a4)
+        c3=int(input("Enter TL and RF system Grade point="))
+        print(c3)
+        w3=c3*a4
+        print(w3)
+        a5=3
+        print(a5)
+        c4=int(input("Enter PE 1 Grade point="))
+        print(c4)
+        w4=c4*a5
+        print(w4)
+        a6=3
+        print(a6)
+        c5=int(input("Enter PE 2 Grade point="))
+        print(c5)
+        w5=c5*a6
+        print(w5)
+        a7=3
+        print(a7)
+        c6=int(input("Enter PE 3 Grade point="))
+        print(c6)
+        w6=c6*a7
+        print(w6)
+        a8=2
+        print(a8)
+        c7=int(input("Enter NM Grade point="))
+        print(c7)
+        w7=c7*a8
+        print(w7)
+        a9=2
+        print(a9)
+        c8=int(input("Enter VLSI lab Grade point="))
+        print(c8)
+        w8=c8*a9
+        print(w8)
+        w=w1+w2+w3+w4+w5+w6+w7+w8
+        h=w/21
+        print(w)
+        print("GPA=",h)
+        break
+    elif(d1==3):
+        a="""
+          INFORMATION TECHNOLOGY:
+          1.Computer Networks
+          2. IT3501 Full Stack web Development
+          3. CS3551 Distributed Computing
+          4. CS3691 Embedded Systems and IoT
+          5. Professional Elective I
+          6. Professional Elective II
+          7. Mandatory Course- I
+          8.Full Stack web Development Laboratory
+          """
+        print(a)
+        a2=4
+        print(a2)
+        c1=int(input("Enter CN Grade point="))
+        print(c1)
+        w1=c1*a2
+        print(w1)
+        a3=3
+        print(a3)
+        c2=int(input("Enter FS and WD Grade point="))
+        print(c2)
+        w2=c2*a3
+        print(w2)
+        a4=3
+        print(a4)
+        c3=int(input("Enter DC system Grade point="))
+        print(c3)
+        w3=c3*a4
+        print(w3)
+        a5=4
+        print(a5)
+        c4=int(input("Enter IOT Grade point="))
+        print(c4)
+        w4=c4*a5
+        print(w4)
+        a6=3
+        print(a6)
+        c5=int(input("Enter PE 1 Grade point="))
+        print(c5)
+        w5=c5*a6
+        print(w5)
+        a7=3
+        print(a7)
+        c6=int(input("Enter PE 2 Grade point="))
+        print(c6)
+        w6=c6*a7
+        print(w6)
+        a8=2
+        print(a8)
+        c7=int(input("Enter NM Grade point="))
+        print(c7)
+        w7=c7*a8
+        print(w7)
+        a9=2
+        print(a9)
+        c8=int(input("Enter FS and WD lab Grade point="))
+        print(c8)
+        w8=c8*a9
+        print(w8)
+        w=w1+w2+w3+w4+w5+w6+w7+w8
+        h=w/22
+        print(w)
+        print("GPA=",h)
+        break
+    elif(d1==4):
+        a="""
+          ELECTRICAL AND ELECTRONICS ENGINEERING:
+          1.Power System Analysis
+          2. EE3591 Powered Electronics
+          3. EE3503 Control System
+          4. Professional Elective I
+          5. Professional Elective II
+          6. Professional Elective III
+          7. Mandatory Course-I&
+          8. EE3511 Power Electronics Laboratory
+          9. EE3512 Control and Instrumentation Laboratory
+          """
+        print(a)
+        a2=3
+        print(a2)
+        c1=int(input("Enter PSA Grade point="))
+        print(c1)
+        w1=c1*a2
+        print(w1)
+        a3=3
+        print(a3)
+        c2=int(input("Enter PE Grade point="))
+        print(c2)
+        w2=c2*a3
+        print(w2)
+        a4=3
+        print(a4)
+        c3=int(input("Enter CS Grade point="))
+        print(c3)
+        w3=c3*a4
+        print(w3)
+        a5=3
+        print(a5)
+        c4=int(input("Enter PE1 Grade point="))
+        print(c4)
+        w4=c4*a5
+        print(w4)
+        a6=3
+        print(a6)
+        c5=int(input("Enter PE2 Grade point="))
+        print(c5)
+        w5=c5*a6
+        print(w5)
+        a7=3
+        print(a7)
+        c6=int(input("Enter PE3 Grade point="))
+        print(c6)
+        w6=c6*a7
+        print(w6)
+        a8=2
+        print(a8)
+        c7=int(input("Enter NM Grade point="))
+        print(c7)
+        w7=c7*a8
+        print(w7)
+        a9=1.5
+        print(a9)
+        c8=int(input("Enter  PE lab Grade point="))
+        print(c8)
+        w8=c8*a9
+        print(w8)
+        a10=2
+        c9=int(input("Enter C and I lab Grade point="))
+        w9=c9*a10
+        print(w9)
+        w=w1+w2+w3+w4+w5+w6+w7+w8+w9
+        h=w/21.5
+        print(w)
+        print("GPA=",h)
+        break
+    elif(d1==5):
+        a="""
+          MECHANICAL ENGINEERING:
+          Course Title:
+          1.Design of Machine Elements
+          2. ME3592 Metrology and Measurements
+          3. Professional Elective I
+          4. Professional Elective II
+          5. Professional Elective III
+          6. Mandatory Course-I
+          7. ME3511 Summer Internship
+          8. ME3581 Metrology and Dynamics Laboratory
+          """
+        print(a)
+        a2=4
+        print(a2)
+        c1=int(input("Enter DME Grade point="))
+        print(c1)
+        w1=c1*a2
+        print(w1)
+        a3=3
+        print(a3)
+        c2=int(input("Enter MM Grade point="))
+        print(c2)
+        w2=c2*a3
+        print(w2)
+        a4=3
+        print(a4)
+        c3=int(input("Enter PE1 Grade point="))
+        print(c3)
+        w3=c3*a4
+        print(w3)
+        a5=3
+        print(a5)
+        c4=int(input("Enter PE2 Grade point="))
+        print(c4)
+        w4=c4*a5
+        print(w4)
+        a6=3
+        print(a6)
+        c5=int(input("Enter PE3 Grade point="))
+        print(c5)
+        w5=c5*a6
+        print(w5)
+        a9=1
+        print(a9)
+        c8=int(input("Enter  INTER Grade point="))
+        print(c8)
+        w8=c8*a9
+        print(w8)
+        a10=2
+        c9=int(input("Enter MD lab Grade point="))
+        w9=c9*a10
+        print(w9)
+        w=w1+w2+w3+w4+w5+w8+w9
+        h=w/19
+        print(w)
+        print("GPA=",h)
+        break
+    elif(d1==6):
+        a="""
+           ARTIFICIAL INTELLIGENCE AND DATA SCIENCE:
+           Course Title:
+            1.Deep Learing
+            2.Data and Information Security
+            3.Distributed Computing
+            4.Big Data Analytics
+            5.Professional Elective I
+            6.Professional Elective II
+            7.Deep Learing lab
+            8.Intership
+            """
+        print(a)
+        a2=3
+        print(a2)
+        c1=int(input("Enter DL Grade point="))
+        print(c1)
+        w1=c1*a2
+        print(w1)
+        a3=3
+        print(a3)
+        c2=int(input("Enter DIS Grade point="))
+        print(c2)
+        w2=c2*a3
+        print(w2)
+        a4=3
+        print(a4)
+        c3=int(input("Enter DC Grade point="))
+        print(c3)
+        w3=c3*a4
+        print(w3)
+        a4=3
+        print(a4)
+        c3=int(input("Enter BDA Grade point="))
+        print(c3)
+        w4=c3*a4
+        print(w3)
+        a5=3
+        print(a5)
+        c4=int(input("Enter PE1 Grade point="))
+        print(c4)
+        w5=c4*a5
+        print(w4)
+        a6=3
+        print(a6)
+        c5=int(input("Enter PE2 Grade point="))
+        print(c5)
+        w6=c5*a6
+        print(w5)
+        a9=2
+        print(a9)
+        c8=int(input("Enter  PE lab Grade point="))
+        print(c8)
+        w7=c8*a9
+        print(w8)
+        a10=2
+        c9=int(input("Enter C and I lab Grade point="))
+        w8=c9*a10
+        print(w9)
+        w=w1+w2+w3+w4+w5+w6+w7+w8
+        h=w/22
+        print(w)
+        print("GPA=",h)
+        break
+    elif(d1==7):
+        a="""
+        SCIENCE AND HUMANTICS:
+           Course Title:
+            1.Professional English - II
+            2.Statistics and Numerical Methods
+            3.Physics for Information Science
+            4.Basic Electrical and Electronics Engineering
+            5.Engineering Graphics
+            6.Programming in C
+            7.தமிழர்மரபு /Heritage of Tamils
+            8.NCC Credit Course
+            9.Engineering Practices Laboratory
+            10.Programming in C Laboratory
+            11.Communication Laboratory
+            """
+        print(a)
+        a2=2
+        print(a2)
+        c1=int(input("Enter PE2 Grade point="))
+        print(c1)
+        w1=c1*a2
+        print(w1)
+        a3=4
+        print(a3)
+        c2=int(input("Enter M3 Grade point="))
+        print(c2)
+        w2=c2*a3
+        print(w2)
+        a4=3
+        print(a4)
+        c3=int(input("Enter PH2 Grade point="))
+        print(c3)
+        w3=c3*a4
+        print(w3)
+        a5=3
+        print(a5)
+        c4=int(input("Enter BEE Grade point="))
+        print(c4)
+        w4=c4*a5
+        print(w4)
+        a6=4
+        print(a6)
+        c5=int(input("Enter EG Grade point="))
+        print(c5)
+        w5=c5*a6
+        print(w5)
+        a7=3
+        print(a7)
+        c6=int(input("Enter C Grade point="))
+        print(c6)
+        w6=c6*a7
+        print(w6)
+        a8=1
+        print(a8)
+        c7=int(input("Enter Tamil Grade point="))
+        print(c7)
+        w7=c7*a8
+        print(w7)
+        a10=2
+        print(a10)
+        c8=int(input("Enter NCC Grade point="))
+        w8=c8*a10
+        print(w8)
+        a11=2
+        print(a11)
+        c9=int(input("Enter Programing in C lab Grade point="))
+        print(c9)
+        w9=c9*a11
+        print(w9)
+        a12=2
+        print(a12)
+        c10=int(input("Enter Engineering Lab Grade point="))
+        print(c10)
+        w10=c10*a12
+        print(w10)
+        a13=2
+        print(a13)
+        c11=int(input("Enter Communication Lab Grade point="))
+        print(c11)
+        w11=c11*a13
+        print(w11)
+        w=w1+w2+w3+w4+w5+w6+w7+w8+w9+w10+w11
+        h=w/26
+        print(w)
+        print("GPA=",h)
+        break
+    else:
+        print("Invalid choice")
+        print("Again choose above in the choice")
+
+     
+
+     
+     
+       
+      

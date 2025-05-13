@@ -1,0 +1,16 @@
+import random
+a=[10,5,3,6,2,7,4,9,1,8]
+print("Guess number:",a)
+b=random.choice(a)
+while True:
+    a1=int(input("enter guessing number:"))
+    if a1==b:
+        print("the Guess answer are correct")
+        a2=input("You want to play agian [yes/no]:")
+        if(a2=="yes"):
+            continue
+        else:
+            break
+    else:
+        print("Try again")
+        continue

@@ -1,0 +1,291 @@
+import random
+while True:
+    a=["✊","✋","✌"]
+    print(a)
+    print("enter any option!")
+    b=random.choice(a)
+    c=random.choice(a)
+    d=random.choice(a)
+    e=random.choice(a)
+    f=random.choice(a)
+    g=random.choice(a)
+    a1=input()
+    if(a1=="a"):
+        a2=("✊")
+    elif(a1=="b"):
+        a2=("✋")
+    elif(a1=="c"):
+        a2=("✌")
+    else:
+        print("put correct option")
+        continue
+    print(a2,b)
+    if(a2=="✊" and b=="✌"):
+        b1=1
+        print("point:",b1)
+    elif(a2=="✊" and b=="✋"):
+        b1=0
+        print("point:",b1)
+    elif(a2=="✊" and b=="✊"):
+        b1=0
+        print("point:",b1)
+    elif(a2=="✋" and b=="✊"):
+        b1=1
+        print("point:",b1)
+    elif(a2=="✋" and b=="✌"):
+        b1=0
+        print("point:",b1)
+    elif(a2=="✋" and b=="✋"):
+        b1=0
+        print("point:",b1)
+    elif(a2=="✌" and b=="✋"):
+        b1=1
+        print("point:",b1)
+    elif(a2=="✌" and b=="✊"):
+        b1=0
+        print("point:",b1)
+    elif(a2=="✌" and b=="✌"):
+        b1=0
+        print("point:",b1)
+    if(b1==1):
+        l1=1
+    elif(b1==0):
+        l1=0
+    else:
+        l1=0
+    a2=input()
+    if(a2=="a"):
+        a3=("✊")
+    elif(a2=="b"):
+        a3=("✋")
+    elif(a2=="c"):
+        a3=("✌")
+    else:
+        print("put correct option")
+        continue
+    print(a3,c)
+    if(a3=="✊" and c=="✌"):
+        c1=1
+        print("point:",c1)
+    elif(a3=="✊" and c=="✋"):
+        c1=0
+        print("point:",c1)
+    elif(a3=="✊" and c=="✊"):
+        c1=0
+        print("point:",c1)
+    elif(a3=="✋" and c=="✊"):
+        c1=1
+        print("point:",c1)
+    elif(a3=="✋" and c=="✌"):
+        c1=0
+        print("point:",c1)
+    elif(a3=="✋" and c=="✋"):
+        c1=0
+        print("point:",c1)
+    elif(a3=="✌" and c=="✋"):
+        c1=1
+        print("point:",c1)
+    elif(a3=="✌" and c=="✊"):
+        c1=0
+        print("point:",c1)
+    elif(a3=="✌" and c=="✌"):
+        c1=0
+        print("point:",c1)
+    if(c1==1):
+        l2=1
+    elif(c1==0):
+        l2=0
+    else:
+        l2=0
+    a3=input()
+    if(a3=="a"):
+        a4=("✊")
+    elif(a3=="b"):
+        a4=("✋")
+    elif(a3=="c"):
+        a4=("✌")
+    else:
+        print("put correct option")
+        continue
+    print(a4,d)
+    if(a4=="✊" and d=="✌"):
+        d1=1
+        print("point:",d1)
+    elif(a4=="✊" and d=="✋"):
+        d1=0
+        print("point:",d1)
+    elif(a4=="✊" and d=="✊"):
+        d1=0
+        print("point:",d1)
+    elif(a4=="✋" and d=="✊"):
+        d1=1
+        print("point:",d1)
+    elif(a4=="✋" and d=="✌"):
+        d1=0
+        print("point:",d1)
+    elif(a4=="✋" and d=="✋"):
+        d1=0
+        print("point:",d1)
+    elif(a4=="✌" and d=="✋"):
+        d1=1
+        print("point:",d1)
+    elif(a4=="✌" and d=="✊"):
+        d1=0
+        print("point:",d1)
+    elif(a4=="✌" and d=="✌"):
+        d1=0
+        print("point:",d1)
+    if(d1==1):
+        l3=1
+    elif(d1==0):
+        l3=0
+    else:
+        l3=0
+    a4=input()
+    if(a4=="a"):
+        a5=("✊")
+    elif(a4=="b"):
+        a5=("✋")
+    elif(a4=="c"):
+        a5=("✌")
+    else:
+        print("put correct option")
+        continue
+    print(a5,e)
+    if(a5=="✊" and e=="✌"):
+        e1=1
+        print("point:",e1)
+    elif(a5=="✊" and e=="✋"):
+        e1=0
+        print("point:",e1)
+    elif(a5=="✊" and e=="✊"):
+        e1=0
+        print("point:",e1)
+    elif(a5=="✋" and e=="✊"):
+        e1=1
+        print("point:",e1)
+    elif(a5=="✋" and e=="✌"):
+        e1=0
+        print("point:",e1)
+    elif(a5=="✋" and e=="✋"):
+        e1=0
+        print("point:",e1)
+    elif(a5=="✌" and e=="✋"):
+        e1=1
+        print("point:",e1)
+    elif(a5=="✌" and e=="✊"):
+        e1=0
+        print("point:",e1)
+    elif(a5=="✌" and e=="✌"):
+        e1=0
+        print("point:",e1)
+    if(e1==1):
+        l4=1
+    elif(e1==0):
+        l4=0
+    else:
+        l4=0
+    a5=input()
+    if(a5=="a"):
+        a6=("✊")
+    elif(a5=="b"):
+        a6=("✋")
+    elif(a5=="c"):
+        a6=("✌")
+    else:
+        print("put correct option")
+        continue
+    print(a6,f)
+    if(a6=="✊" and f=="✌"):
+        f1=1
+        print("point:",f1)
+    elif(a6=="✊" and f=="✋"):
+        f1=0
+        print("point:",f1)
+    elif(a6=="✊" and f=="✊"):
+        f1=0
+        print("point:",f1)
+    elif(a6=="✋" and f=="✊"):
+        f1=1
+        print("point:",f1)
+    elif(a6=="✋" and f=="✌"):
+        f1=0
+        print("point:",f1)
+    elif(a6=="✋" and f=="✋"):
+        f1=0
+        print("point",f1)
+    elif(a6=="✌" and f=="✋"):
+        f1=1
+        print("point:",f1)
+    elif(a6=="✌" and f=="✊"):
+        f1=0
+        print("point:",f1)
+    elif(a6=="✌" and f=="✌"):
+        f1=0
+        print("point:",f1)
+    if(f1==1):
+        l5=1
+    elif(f1==0):
+        l5=0
+    else:
+        l5=0
+    a6=input()
+    if(a6=="a"):
+        a7=("✊")
+    elif(a6=="b"):
+        a7=("✋")
+    elif(a6=="c"):
+        a7=("✌")
+    else:
+        print("put correct option")
+        continue
+    print(a7,g)
+    if(a7=="✊" and g=="✌"):
+        g1=1
+        print("point:",g1)
+    elif(a7=="✊" and g=="✋"):
+        g1=0
+        print("point:",g1)
+    elif(a7=="✊" and g=="✊"):
+        g1=0
+        print("point:",g1)
+    elif(a7=="✋" and g=="✊"):
+        g1=1
+        print("point:",g1)
+    elif(a7=="✋" and g=="✌"):
+        g1=0
+        print("point:",g1)
+    elif(a7=="✋" and g=="✋"):
+        g1=0
+        print("point:",g1)
+    elif(a7=="✌" and g=="✋"):
+        g1=1
+        print("point:",g1)
+    elif(a7=="✌" and g=="✊"):
+        g1=0
+        print("point:",g1)
+    elif(a7=="✌" and g=="✌"):
+        g1=0
+        print("point:",g1)
+    if(g1==1):
+        l6=1
+    elif(g1==0):
+        l6=0
+    else:
+        l6=0
+    k=l1+l2+l3+l4+l5+l6
+    print("score:",k)
+    if(k<3):
+        print("Loose the game")
+        break
+    elif(k>=3):
+        print("Win the game")
+        print("you want to play again[yes/no]")
+        k1=input()
+        if(k1=="yes"):
+            continue
+        else:
+            break
+    else:
+        print("Draw a game")
+        break
